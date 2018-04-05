@@ -1,14 +1,13 @@
 {
-  "name": "google-sheets-api",
+  "name": "express-sheets",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express middleware to transparently serve data from Google Sheets",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphaelcockx/express-sheets"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "bugs": "https://github.com/raphaelcockx/express-sheets/issues",
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
@@ -20,5 +19,8 @@
   },
   "dependencies": {
     "googleapis": "^28.0.1"
-  }
+  },
+  "keywords": ["connect", "express", "middleware", "data", "google", "sheets", "json"],
+  "author": "Raphael Cockx <raphael@cockx.com>",
+  "license": "MIT"
 }
